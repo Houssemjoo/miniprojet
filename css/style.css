@@ -1,0 +1,73 @@
+body {
+
+
+height: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-blend-mode: soft-light;
+
+}
+
+#first {
+    height: 10%;
+    width: 100%;
+    padding-top: 0px;
+    margin-left: 0px;
+}
+.sticky {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
+  }
+
+footer {
+    background-color:#a3a1a1;
+}
+legend{
+    color: black;
+    font-weight: bold;
+  }
+  fieldset{
+    padding: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .error{
+    color: red;
+    font-style: bold;
+}
+ .custom {
+     min-width: 250px !important;
+     max-width: 300px !important;
+     margin: 10px auto;
+     overflow: hidden;
+     padding-bottom: 10px;
+
+
+}
+.hide {
+    display: none;
+}
+
+.custom .card {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+.mapbox , .mapbox iframe{
+    display: flex;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.perso {
+    margin: 10px auto !important;
+}
+
+#page-container{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 210px;
+}
